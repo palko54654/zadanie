@@ -1,0 +1,74 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "logo": "specsavers.jpg",
+      "name": "Specsavers Denmark",
+      "com_id": "123",
+      "status": "active",
+      "enabled": true,
+      "leg_id": 3,
+      "size": "225 GB"
+    },
+    {
+      "id": 2,
+      "logo": "yunar.jpg",
+      "name": "Yunar",
+      "com_id": "485",
+      "status": "active",
+      "enabled": true,
+      "leg_id": 1,
+      "size": "225 GB"
+    },
+    {
+      "id": 3,
+      "logo": "coca-cola.png",
+      "name": "Coca-Cola",
+      "com_id": "985",
+      "status": "active",
+      "enabled": true,
+      "leg_id": 45,
+      "size": "225 GB"
+    },
+    {
+      "id": 4,
+      "logo": "helly.png",
+      "name": "Helly Hansen",
+      "com_id": "654",
+      "status": "active",
+      "enabled": true,
+      "leg_id": 85,
+      "size": "225 GB"
+    },
+    {
+      "id": 5,
+      "logo": "enterprise.jpg",
+      "name": "Brand Enterprise",
+      "com_id": "256",
+      "status": "active",
+      "enabled": true,
+      "leg_id": 96,
+      "size": "225 GB"
+    },
+    {
+      "id": 6,
+      "logo": "mercedes.jpg",
+      "name": "Mercedes-Benz Europe",
+      "com_id": "756",
+      "status": "active",
+      "enabled": true,
+      "leg_id": 75,
+      "size": "225 GB"
+    },
+    {
+      "id": 7,
+      "logo": "bmw.jpg",
+      "name": "BMW Nordic",
+      "com_id": "325",
+      "status": "active",
+      "enabled": true,
+      "leg_id": 15,
+      "size": "225 GB"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+.container {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f9fafb;
+    border: 1px solid black;
+    height: 900px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.topbar {
+    background-color: #fff;
+    
+    &__content{
+        border-bottom: 1px solid #f1f4f8;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &__heading {
+        font-size: 13px;
+        margin: 0;
+        margin-left: 18px;
+        font-weight: 400;
+
+    }
+}
+
+.menu {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    background-size: 24px 24px;
+}
+
+.content {
+
+}
+
+@media only screen and (max-width: 848px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

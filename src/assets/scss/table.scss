@@ -1,0 +1,162 @@
+.table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    border: solid 1px #e2e7ee;
+    border-radius: 4px 4px 4px 4px;
+    &__header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: #f1f4f8;
+        border-bottom: solid 1px #e2e7ee;
+        border-radius: 4px 4px 0px 0px;
+
+        &-name {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #516173;
+            letter-spacing: 0.6px;
+            font-size: 10px;
+            text-align: center;
+        }
+    }
+    &__container {
+        //border-left: solid 1px #e2e7ee;
+        //border-right: solid 1px #e2e7ee;
+        padding-top: 3px;
+    }
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        margin-left: 6px;
+        
+        
+        &-flex {
+            display: flex;
+        }
+        &-logo {
+            min-width: 30px;
+            text-indent: -9999px;
+            background-size: contain;
+            margin-left: 4px;
+            margin-right: 4px;
+            
+        }
+        &-text {
+            font-size: 13px;
+            color: #242b39;
+            text-align: center;
+        }
+        &-dropdown {
+            margin: 0 auto;
+            position: relative;
+
+            &-menu {
+                background-color: white;
+                position: absolute;
+                z-index: 2;
+                top: 25px;
+                width: 150px;
+                
+                box-shadow: 3px 8px 5px 1px rgba(0,0,0,0.20);
+                &:after {
+                    position: absolute;
+                    left: 10%;
+                    
+                    content: '';
+                    margin-top: 4px;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-bottom: 5px solid #fff;
+                    top: -8px;
+                    width: 0;
+                    height: 0;
+                }
+
+            }
+            &-submenu {
+                background-color: white;
+                position: absolute;
+                z-index: 2;
+                top: 120px;
+                width: 150px;
+                
+                box-shadow: 3px 8px 5px 1px rgba(0,0,0,0.20);
+                &:after {
+                    position: absolute;
+                    left: 10%;
+                    
+                    content: '';
+                    margin-top: 4px;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-bottom: 5px solid #fff;
+                    top: -8px;
+                    width: 0;
+                    height: 0;
+                }
+            }
+                
+                &-item {
+                    height: 36px;
+                    
+                    &:hover {
+                        background-color: #f1f4f8;
+                    }
+                    button {
+                        background: transparent;
+                        border: none;
+                        line-height: 36px;
+                    }
+                }
+            
+        }
+        
+        
+        &-button {
+            max-width: 77px;
+            width: 100%;
+            margin: 0  auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            border: solid 1px #e2e7ee;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        &-status {
+            margin: 0 auto;
+            max-width: 53px;
+            width: 100%;
+            text-align: center;
+            background-color: #cffbe9;
+            font-size: 10px;
+            font-weight: 500;
+            color: #21985e;
+            border-radius: 4px;
+            text-transform: uppercase;
+            padding: 2px 0px;
+            
+        }
+        
+        &:hover {
+            background-color: #eff2f7;
+            border-radius: 4px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+   .table {
+       width: 98%;
+
+       &__content {
+           margin-right: 1px;
+           margin-left: 1px;
+       }
+   }
+}

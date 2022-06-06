@@ -1,0 +1,53 @@
+.overview {
+    padding-bottom: 30px;
+
+    &__content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &__heading {
+        font-size: 31px;
+        letter-spacing: -0.37px;
+        font-weight: 500;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__searchbar {
+        padding-left: 18px;
+        background: url("../images/search.svg") no-repeat left;
+        background-size: 15px;
+     
+        color: #9fa7bb;
+        font-size: 13px;
+        background-color: #fff;
+        border: solid 1px #e2e7ee;
+        border-radius: 3px;
+    }
+
+    &__addbutton {
+        border-radius: 50%;
+        background-color: #407cff;
+        border: none;
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        cursor: pointer;
+        transition: all 0.25s ease-in-out;
+
+        &:hover {
+            background-color: #1045b8;
+            
+        }
+        
+    }
+
+    &__plus {
+        color: #fff;
+      
+    }
+}
